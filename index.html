@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head lang = "es-MX">  <!-- La cabecera se comunica con el navegador --> 
+		<meta charset="UTF-8"> <!-- la etiqueta meta no tiene etiqueta de cierre-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA_Compatible" content="ie=edge">
+		<title>Bienes raices</title>
+		<link rel="stylesheet" href="css/estilos.css"> <!--Dice que es una hoja de estilo y solo afecta a los h1-->
+	</head>
+
+	<body>
+		<header class="site-header inicio"> <!--Encabezado del sitio web, se pueden usar varias clases en la misma dejando un espacio-->
+			<div class="contenedor">
+				<div>
+					<a href="/"> <!-- creo que me regresa a la página principal-->
+						<img src="img/logo.svg" alt="Logotipo de bienes raices"> <!--Para poner imagenes en html, despues del nombre del archivo se le puede poner width"600" ó height="1200" para hacer mas grande la imagen-->
+					</a>
+					<!--<a href="http://netflix.com">Ir a Netflix</a> -->
+					<nav> <!--Etiqueta para agrupar una navegación -->
+						<a target= "_blank" href="nosotros.html"> Nosotros </a> <!-- Enlaces HtML, target= "_blank" sirve para abrir la liga en otra pestaña -->
+						<a target= "_blank" href="anuncios.html"> Anuncioss </a> <!-- Enlaces HtML -->
+						<a href="blog.html"> Blog </a> <!-- Enlaces HtML -->
+						<a href="contacto.html"> Contacto </a> <!-- Enlaces HtML -->
+					</nav>
+				</div>
+				<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1> <!--Encabezado  con la etiqueta h1. Van del h1 al h6 y esto indica el tamaño de letra-->
+				<!--las etiquetas h indican la importancia del encabezado, se recomineda un solo h1 por página-->
+				<!--<p>Hola mundo. <br> Como estan </p>-->   <!--parrafo(<p></p>), salto de linea <br>-->
+			</div>
+		</header>
+
+		<section> <!--Para seccionar. Se usa cuando hay un head osea un cambio de sección-->
+			<h2>Mas sobre nosotros</h2>
+			<div> <!-- se utiliza para dividir el section--> 
+				<img src="img/icono1.svg" alt="Icono seguridad">
+				<h3 class="encabezado mayusculas">Seguridad</h3>  <!--<p>texto aleatorio con lorem</p>-->
+				<p>Cumque maxime reiciendis ad delectus, corrupti et hic perferendis recusandae dolore, est sapiente      necessitatibus voluptatem quidem minima voluptates officia error modi quis?</p>
+			</div>
+			<div>
+				<img src="img/icono2.svg" alt="Icono precio">
+				<h3 class="encabezado">El mejor precio</h3>
+				<p>Cumque maxime reiciendis ad delectus, corrupti et hic perferendis recusandae dolore, est sapiente      necessitatibus voluptatem quidem minima voluptates officia error modi quis?</p>
+			</div>
+			<div>
+				<img src="img/icono3.svg" alt="Icono tiempo">
+				<h3 class="encabezado">A tiempo</h3>
+				<p>Cumque maxime reiciendis ad delectus, corrupti et hic perferendis recusandae dolore, est sapiente      necessitatibus voluptatem quidem minima voluptates officia error modi quis?</p>
+			</div>
+		</section>
+
+		<main> <!--contenido principal-->
+			<h2>Casas y depas en venta</h2>
+
+			<div>
+				<img src="img/anuncio1.jpg" alt="">
+				<h3>Casa de lujo en el lago</h3>
+				<p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+				<p>3,000,000</p>
+				<a href="#">Ver Propiedad</a>
+			</div>
+			<div>
+				<img src="img/anuncio2.jpg" alt="">
+				<h3>Casa terminados de lujo </h3>
+				<p>Casa con diseño moderno, así como tecnología inteligente y amueblada</p>
+				<p>2,000,000</p>
+				<a href="#">Ver Propiedad</a>
+			</div>
+			<div>
+				<img src="img/anuncio3.jpg" alt="">
+				<h3>Casa con alberca</h3>
+				<p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad </p>
+				<p>3,000,000</p>
+				<a href="#">Ver Propiedad</a>
+				<a href="anuncios.html">Ver todas</a>
+			</div>
+		</main>
+
+		<section>
+			<h2>Encuentra la casa de tus sueños</h2>
+			<p>Llena el formulario de contacto y su asesor se pondra en contacto contigo a la brevedad</p>
+			<a href="contacto.html"></a>
+		</section>
+		<section>
+			<h3>Nuestro blog</h3>
+			<article> <!-- se utiliza para blogs o clasificados y foros. Se utiliza cuando un elemento se describe así mismo-->
+				<img src="img/blog1.jpg" alt="">
+				<h4>Terraza en el techo de tu casa</h4>
+				<P>Escrito el: <em>06-02-2020</em>  por:Admin</P>
+				<p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero</p>
+			</article>
+			<article>
+				<img src="img/blog2.jpg" alt="">
+				<h4>Guia para la decoración de tu hogar</h4>
+				<P>Escrito el: 06-02-2020 por:Admin</P>
+				<p>Maximiza el espacio de tu hogar con esta guía, aprende a combinar muebles y colores para darle vida a tu espacio.</p>
+			</article>
+		</section>
+		
+		<section>
+			<h3>Testimonioniales</h3>
+			<blockquote>  <!--Sirve para los testimoniales-->
+				El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todad mis expectativas.
+			</blockquote>
+			<p>Miguel López</p>
+		</section>
+
+		<footer> <!--Es la parte inferior de una entrada(tablas de precios, entradas de blog)-->
+			<nav>
+				<a target= "_blank" href="nosotros.html"> Nosotros </a> <!-- Enlaces HtML, target= "_blank" sirve para abrir la liga en otra pestaña -->
+				<a href="anuncios.html"> Anuncioss </a> <!-- Enlaces HtML -->
+				<a href="blog.html"> Blog </a> <!-- Enlaces HtML -->
+				<a href="contacto.html"> Contacto </a> <!-- Enlaces HtML -->
+			</nav>
+			<p>Todos los derechos reservados 2020 &copy;</p> <!--Entidades de html, sirven para poner simbolos o caracteres raros -->
+		</footer>
+	</body> 
+</html>

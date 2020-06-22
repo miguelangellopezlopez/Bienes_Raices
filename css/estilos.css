@@ -1,0 +1,43 @@
+/*h1 Se pone h1 por que son los elementos que quiero afectar(selector)
+{
+    color:blue; Etiqueta para el color azul, solo les afecta a los H1 y con la etiqueta link en el indexhtml llamarlo
+    font-size: 200px;
+}*/
+
+/*Clases y ids*/
+/*Esto es un id*/
+/*#site-header estilo con id. Solo hay un id con este nombre por página. Se puede reutilizar pero no es recomendable
+{
+    background-color: red;
+}
+
+.encabezado --Estilo con clases. Esta se puede reutilizar
+{
+    color: darkred;
+}
+.mayusculas
+{
+    text-transform: uppercase;
+}*/
+
+/**********************************************************************
+***********************************************************************/
+/*Estilos globales*/
+.contenedor
+{
+    max-width: 1200px;
+    margin-left: auto; /* son los margenes que debe de dejar y centrar*/
+    margin-right: auto; /**/
+
+}
+
+
+/*Header*/
+.site-header.inicio
+{
+    background-image: url(../img/header.jpg); /*Background es el fondo. Los dos puntos son para salirme del directorio actual*/
+    background-position: center center; /*Posicionar la imagen(desde el centro y expandila a todo el display)*/
+    background-size: cover; /*Va forzar que tome todo el espacio disponible tanto en altura como en ancho guardando las proporciones*/
+    height: 100vh; /*tamaño de la imagen en la pantalla*/
+    min-height: 600px;
+}
